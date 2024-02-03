@@ -1,6 +1,5 @@
-21
-42
-63
-84
-Loops
- 101
+1oops
+
+    Syntax:
+    while(condition):
+        #statement
