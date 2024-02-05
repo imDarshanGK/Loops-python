@@ -1,4 +1,4 @@
-loops
+# loops
 
     Syntax:
     while(condition):
