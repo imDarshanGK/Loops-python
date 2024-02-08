@@ -20,6 +20,22 @@ units digit of a number is the digit in the one's place of the number. It is the
     Unit digit in a number 5
     
 
+# whileloop-count-numbers
+while loop count numbers
+
+    #condition : Run loop till count is less than 10
+
+      1
+      2
+      3
+      4
+      5
+      6
+      7
+      8
+      9
+
+
 
 
 
