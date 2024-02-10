@@ -35,6 +35,10 @@ while loop count numbers
       8
       9
 
+#  sum of unit digit
+    Enter a number: 40
+    Sum= 4
+
 
 
 
