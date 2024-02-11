@@ -38,6 +38,10 @@ while loop count numbers
 #  sum of unit digit
     Enter a number: 40
     Sum= 4
+# sum of digits
+    Enter a number >> 12
+    Sum of digits = 3
+
 
 
 
