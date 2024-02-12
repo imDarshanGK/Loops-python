@@ -51,6 +51,9 @@ while loop
         
             Enter a number >> 12
             Sum of digits = 3
+
+            Enter a number >> 365
+            Sum of digits = 14
         
 
 
