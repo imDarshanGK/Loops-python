@@ -115,5 +115,42 @@ Example 3:
         
     
 
+# Armstrong number
+Armstrong number
 
+
+    Program Explanation:
+    
+    1} User must enter the number and store it in a variable.
+    2} The map function obtains each digit from the number and converts it to a string and stores it in a list.
+    3} The second map function cubes each digit and stores it in another list.
+    4} Then the sum of the cubes of the digits is found and is checked if it is equal to the original number.
+    5} If the sum of the cube of digits is equal to the original number, the number is an Armstrong number.
+    6} The final result is printed.
+
+Example 1:
+
+    Enter a number:153
+    Sum= 153
+    It is a Armstrong number
+
+Example 2:
+
+    Enter a number:125
+    Sum= 134
+    It is not a Armstrong number
+
+Example 3:
+
+    Enter a number:407
+    Sum= 407
+    It is a Armstrong number
+
+Example 4:
+
+    Enter a number:469
+    Sum= 1009
+    It is not a Armstrong number
+    
+    
 
