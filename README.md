@@ -39,10 +39,12 @@ while loop count numbers
       9
 
 #  Sum of unit digit
+
 Example 1:
 
     Enter a number: 40
     Sum= 4
+    
 # Sum of digits
 while loop
 
