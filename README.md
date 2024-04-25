@@ -121,7 +121,7 @@ Example 3:
 Armstrong number
 
 
-    Program Explanation:
+    Program Explanation >>
     
     1} User must enter the number and store it in a variable.
     2} The map function obtains each digit from the number and converts it to a string and stores it in a list.
