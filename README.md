@@ -5,7 +5,7 @@
         #statement
 
 # Forloop remove unit digit
-Program to remove unit digit in a number.
+Program to remove unit digit in a number
 
 Example 1:
 
