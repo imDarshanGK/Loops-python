@@ -1,4 +1,4 @@
-n=int(input("Enter a number:"))
+n=int(input("Enter a number: "))
 c=0
 print('factors are')
 for i in range(1,n+1):
