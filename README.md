@@ -9,7 +9,7 @@ Program to remove unit digit in a number
 
 Example 1:
 
-    Enter a number:4596 
+    Enter a number: 4596 
     Number after removing unit digit= 459
 
 # Forloop find unit digit
