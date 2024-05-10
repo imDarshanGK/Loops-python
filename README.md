@@ -447,3 +447,10 @@ Example 3:
     2
     3
     6
+
+Example 4:
+
+    Enter a number: 31
+    Factors are
+    1
+    31
