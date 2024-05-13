@@ -485,3 +485,7 @@ Example 3:
     Enter a number: 9
     Factorial of integer is 362880
 
+Example 4:
+
+    Enter a number: 25
+    Factorial of integer is 15511210043330985984000000
