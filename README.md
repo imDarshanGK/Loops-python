@@ -489,3 +489,20 @@ Example 4:
 
     Enter a number: 25
     Factorial of integer is 15511210043330985984000000
+
+# for else
+solution
+
+    -1
+    43
+    4
+    5
+    7
+    8
+    9
+    23
+    53
+    7
+    Loop successfully completed and we are in else block now!!
+    
+
