@@ -491,7 +491,7 @@ Example 4:
     Factorial of integer is 15511210043330985984000000
 
 # for else
-solution
+Solution
 
     -1
     43
