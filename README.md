@@ -19,7 +19,7 @@ units digit of a number is the digit in the one's place of the number. It is the
 
 Example 1:
 
-    Enter a number:545
+    Enter a number: 545
     Unit digit in a number 5
     
 
