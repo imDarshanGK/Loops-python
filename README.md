@@ -52,17 +52,17 @@ Program to find sum of unit digit in a given number.
 
 Example 1:
 
-    Enter a number:1235
+    Enter a number: 1235
     Sum= 11
 
 Example 2:
 
-    Enter a number:2598
+    Enter a number: 2598
     Sum= 24
 
 Example 3:
 
-    Enter a number:9875325
+    Enter a number: 9875325
     Sum= 39
 
     
