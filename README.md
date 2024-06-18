@@ -105,17 +105,17 @@ Reverse of digits
 
 Example 1:
 
-    Enter a number:548
+    Enter a number: 548
     Reverse of digits= 845
 
 Example 2:
 
-    Enter a number:987
+    Enter a number: 987
     Reverse of digits= 789
 
 Example 3:
     
-    Enter a number:739
+    Enter a number: 739
     Reverse of digits= 937
     
 # Product of digits
