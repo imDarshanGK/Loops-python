@@ -23,7 +23,7 @@ Example 1:
     Unit digit in a number 5
     
 
-# Whileloop-count-number
+# Whileloop count number
 while loop count numbers
 
     # condition : Run loop till count is less than 10
@@ -92,15 +92,10 @@ Reverse of digits
     Program Explanation:
     
     1} User must first enter the value and store it in a variable n.
-    
     2} The for loop is used and the last digit of the number is obtained by using the modulus operator.
-    
     3} The last digit is then stored at the one’s place, second last at the ten’s place and so on.
-    
     4} The last digit is then removed by truly dividing the number with 10.
-    
     5} This loop terminates when the value of the number is 0.
-    
     6} The reverse of the number is then printed.
 
 Example 1:
@@ -153,36 +148,34 @@ Armstrong number
 
 Example 1:
 
-    Enter a number:153
+    Enter a number: 153
     Sum= 153
     It is a Armstrong number
 
 Example 2:
 
-    Enter a number:125
+    Enter a number: 125
     Sum= 134
     It is not a Armstrong number
 
 Example 3:
 
-    Enter a number:407
+    Enter a number: 407
     Sum= 407
     It is a Armstrong number
 
 Example 4:
 
-    Enter a number:469
+    Enter a number: 469
     Sum= 1009
     It is not a Armstrong number
-    
-    
+      
 # Range
 range
 
 Syntax:
 
        for i in range(start,end):
-       
            //statement
            
 Program Explanation:
@@ -229,19 +222,19 @@ Example 1:
 
 Example 2:
 
-    Enter a number:984
+    Enter a number: 984
     reverse= 489
     it is not a Palindrome number
 
 Example 3:
 
-    Enter a number:737
+    Enter a number: 737
     reverse= 737
     it is a Palindrome number
 
 Example 4:
     
-    Enter a number:845
+    Enter a number: 845
     reverse= 548
     it is not a Palindrome number
 
