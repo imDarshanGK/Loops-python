@@ -498,4 +498,13 @@ Solution
     7
     Loop successfully completed and we are in else block now!!
     
+# Number Sum Calculator
+Number sum calculator
 
+    Enter a number(0 to quit)>> 2
+    Enter a number(0 to quit)>> -5
+    Enter a number(0 to quit)>> 5
+    Enter a number(0 to quit)>> 10
+    Enter a number(0 to quit)>> -4
+    Enter a number(0 to quit)>> 0
+    Total is 8
