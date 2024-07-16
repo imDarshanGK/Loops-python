@@ -78,8 +78,8 @@ while loop
     
 Example 1:
 
-    Enter a number >> 12
-    Sum of digits = 3
+    Enter a number >> 55
+    Sum of digits = 10
     
 Example 2:
 
