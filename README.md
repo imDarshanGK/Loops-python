@@ -1,55 +1,73 @@
-# Loops
+# Loops Python
 
-    Syntax:
-    while(condition):
-        #statement
+## Overview
+This repository is dedicated to understanding and practicing **loops** in Python. It includes programs and exercises demonstrating the usage of `for` and `while` loops. The repository is suitable for beginners looking to grasp Python's iterative constructs effectively.
 
-# Forloop remove unit digit
+## Features
+- Comprehensive examples of `for` and `while` loops.
+- Practical exercises covering common use cases of loops.
+- Clear and well-documented Python code for learning and reference.
+
+## Contents
+- **For Loops**: Iterating over sequences, ranges, and collections.
+- **While Loops**: Looping with conditions and control mechanisms.
+
+##  Loops
+```
+Syntax:
+while(condition):
+    #statement
+```
+
+##  Forloop remove unit digit
 Program to remove unit digit in a number
 
 Example 1:
+```
+Enter a number: 4596 
+Number after removing unit digit= 459
+```
 
-    Enter a number: 4596 
-    Number after removing unit digit= 459
-
-# Forloop find unit digit
+## Forloop find unit digit
 Program to find unit digit in a number.
 
 units digit of a number is the digit in the one's place of the number. It is the rightmost digit of the number.
 
 Example 1:
+```
+Enter a number: 545
+Unit digit in a number 5
+ ```   
 
-    Enter a number: 545
-    Unit digit in a number 5
-    
-
-# Whileloop count number
+## Whileloop count number
 while loop count numbers
+```
+condition : Run loop till count is less than 10
 
-    # condition : Run loop till count is less than 10
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+```
 
-      1
-      2
-      3
-      4
-      5
-      6
-      7
-      8
-      9
-
-#  Sum of unit digit
+## Sum of unit digit
 forloop
 
 Program to find sum of unit digit in a given number.
-
-    Program Explanation:
-    1. User must first enter the value and store it in a variable.
-    2. The for loop is used and the last digit of the number is obtained by using the modulus operator.
-    3. The digit is added to another variable each time the loop is executed.
-    4. This loop terminates when the value of the number is 0.
-    5. The total sum of the number is then printed.
-
+```
+Program Explanation:
+1. User must first enter the value and store it in a variable.
+2. The for loop is used and the last digit of the number is obtained by using the modulus operator.
+3. The digit is added to another variable each time the loop is executed.
+4. This loop terminates when the value of the number is 0.
+5. The total sum of the number is then printed.
+```
+```
 Example 1:
 
     Enter a number: 1235
@@ -64,18 +82,18 @@ Example 3:
 
     Enter a number: 9875325
     Sum= 39
-
+```
     
-# Sum of digits
+## Sum of digits
 while loop
+```
+Program Explanation:
+1} User must first enter the value and store it in a variable.
+2} The for loop is used and the last digit of the number is obtained by using the modulus operator.
+3} The digit is added to another variable each time the loop is executed.
+4} This loop terminates when the value of the number is 0.
+5} The total sum of the number is then printed.
 
-    Program Explanation:
-    1} User must first enter the value and store it in a variable.
-    2} The for loop is used and the last digit of the number is obtained by using the modulus operator.
-    3} The digit is added to another variable each time the loop is executed.
-    4} This loop terminates when the value of the number is 0.
-    5} The total sum of the number is then printed.
-    
 Example 1:
 
     Enter a number >> 55
@@ -85,18 +103,19 @@ Example 2:
 
     Enter a number >> 365
     Sum of digits = 14
+```
 
-# Reverse of digits
+## Reverse of digits
 Reverse of digits
+```
+Program Explanation:
 
-    Program Explanation:
-    
-    1} User must first enter the value and store it in a variable n.
-    2} The for loop is used and the last digit of the number is obtained by using the modulus operator.
-    3} The last digit is then stored at the one’s place, second last at the ten’s place and so on.
-    4} The last digit is then removed by truly dividing the number with 10.
-    5} This loop terminates when the value of the number is 0.
-    6} The reverse of the number is then printed.
+1} User must first enter the value and store it in a variable n.
+2} The for loop is used and the last digit of the number is obtained by using the modulus operator.
+3} The last digit is then stored at the one’s place, second last at the ten’s place and so on.
+4} The last digit is then removed by truly dividing the number with 10.
+5} This loop terminates when the value of the number is 0.
+6} The reverse of the number is then printed.
 
 Example 1:
 
@@ -112,10 +131,11 @@ Example 3:
     
     Enter a number: 739
     Reverse of digits= 937
+```
     
-# Product of digits
+## Product of digits
 Product of digits
-
+```
 Example 1:
 
     Enter a number: 4586
@@ -130,21 +150,19 @@ Example 3:
 
     Enter a number: 39
     Product of digits= 27
-        
+```        
     
-
-# Armstrong number
+## Armstrong number
 Armstrong number
+```
+Program Explanation >>
 
-
-    Program Explanation >>
-    
-    1} User must enter the number and store it in a variable.
-    2} The map function obtains each digit from the number and converts it to a string and stores it in a list.
-    3} The second map function cubes each digit and stores it in another list.
-    4} Then the sum of the cubes of the digits is found and is checked if it is equal to the original number.
-    5} If the sum of the cube of digits is equal to the original number, the number is an Armstrong number.
-    6} The final result is printed.
+1} User must enter the number and store it in a variable.
+2} The map function obtains each digit from the number and converts it to a string and stores it in a list.
+3} The second map function cubes each digit and stores it in another list.
+4} Then the sum of the cubes of the digits is found and is checked if it is equal to the original number.
+5} If the sum of the cube of digits is equal to the original number, the number is an Armstrong number.
+6} The final result is printed.
 
 Example 1:
 
@@ -169,15 +187,15 @@ Example 4:
     Enter a number: 469
     Sum= 1009
     It is not a Armstrong number
-      
-# Range
+ ```     
+## Range
 range
-
+```
 Syntax:
-
-       for i in range(start,end):
-           //statement
-           
+for i in range(start,end):
+   //statement
+```
+```           
 Program Explanation:
 
       * Start value included
@@ -192,27 +210,28 @@ Example:
     3 Python
     4 Python
     5 Python
+```
 
-# 𝐏𝐚𝐥𝐢𝐧𝐝𝐫𝐨𝐦𝐞 𝐧𝐮𝐦𝐛𝐞𝐫
+## 𝐏𝐚𝐥𝐢𝐧𝐝𝐫𝐨𝐦𝐞 𝐧𝐮𝐦𝐛𝐞𝐫
 𝐏𝐚𝐥𝐢𝐧𝐝𝐫𝐨𝐦𝐞 𝐧𝐮𝐦𝐛𝐞𝐫
 
 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧:
-
-    The program takes a number and checks whether it is a palindrome or not.
-
-
+```
+The program takes a number and checks whether it is a palindrome or not.
+```
+```
 Program Explanation:
     
-    1} User must first enter the value of the integer and store it in a variable.
-    2} The value of the integer is then stored in another temporary variable.
-    3} The for loop is used and the last digit of the number is obtained by using the modulus operator.
-    4} The last digit is then stored at the one’s place, second last at the ten’s place and so on.
-    5} The last digit is then removed by truly dividing the number with 10.
-    6} This loop terminates when the value of the number is 0.
-    7} The reverse of the number is then compared with the integer value stored in the temporary variable.
-    8} If both are equal, the number is a palindrome.
-    9} If both aren’t equal, the number isn’t a palindrome.
-    10} The final result is then printed.
+1} User must first enter the value of the integer and store it in a variable.
+2} The value of the integer is then stored in another temporary variable.
+3} The for loop is used and the last digit of the number is obtained by using the modulus operator.
+4} The last digit is then stored at the one’s place, second last at the ten’s place and so on.
+5} The last digit is then removed by truly dividing the number with 10.
+6} This loop terminates when the value of the number is 0.
+7} The reverse of the number is then compared with the integer value stored in the temporary variable.
+8} If both are equal, the number is a palindrome.
+9} If both aren’t equal, the number isn’t a palindrome.
+10} The final result is then printed.
 
 Example 1:
     
@@ -237,10 +256,11 @@ Example 4:
     Enter a number: 845
     reverse= 548
     it is not a Palindrome number
+```
 
-# Sum of cubes
+## Sum of cubes
 Sum of cubes
-
+```
 Example 1:
 
     Enter a number: 12
@@ -255,11 +275,11 @@ Example 3:
 
     Enter a number: 5
     Sum of cubes= 225
+```
 
-# Factorial
+## Factorial
 Factorial
-
-
+```
 Program Explanation:
 
     * User must enter a number.
@@ -282,10 +302,11 @@ Example 3:
 
     Enter a number: 10
     Factorial= 3628800
+```
 
-# Number of factors
+## Number of factors
 Number of factors
-
+```
 Example 1:
 
     Enter a number: 22
@@ -325,19 +346,20 @@ Example 4:
     10
     20
     Number of factors= 6
+```
 
-# Prime number and Not a prime number
+## Prime number and Not a prime number
 Prime number and Not a prime number 
-
+```
 Program Explanation:
 
-    * User must enter the number to be checked and store it in a different variable.
-    * The count variable is first initialized to 0.
-    * The for loop ranges from 1 of the number.
-    * The if statement then checks for the modules of the number if the remainder is equal to 0.
-    * The count variable counts the number of modules and if the count is equal to 2, the number is a prime number.
-    * If the count is not equal 2, the number is n’t a prime number.
-    * The final result is printed.
+* User must enter the number to be checked and store it in a different variable.
+* The count variable is first initialized to 0.
+* The for loop ranges from 1 of the number.
+* The if statement then checks for the modules of the number if the remainder is equal to 0.
+* The count variable counts the number of modules and if the count is equal to 2, the number is a prime number.
+* If the count is not equal 2, the number is n’t a prime number.
+* The final result is printed.
 
 Example 1:
 
@@ -380,10 +402,11 @@ Example 4:
     31
     Number of factors= 2
     Prime number
+```
 
-# Sum of factors
+## Sum of factors
 Sum of factors
-
+```
 Example 1:
 
     Enter a number: 28
@@ -410,10 +433,11 @@ Example 4:
     Enter a number: 8
     Sum of factors= 7
     Not a Perfect number
+```
 
-# Factors
+## Factors
 Factors are
-
+```
 Example 1:
 
     Enter a number: 12
@@ -447,21 +471,23 @@ Example 4:
     Factors are
     1
     31
+```
 
-# factorial of n integer
+## factorial of n integer
 factorial of n integer
 
 Problem Description:
-
-    The program takes a number and finds the factorial of that number without using recursion.
-    
+```
+The program takes a number and finds the factorial of that number without using recursion.
+  ```
+```  
 Program Explanation:
     
-    1} User must enter a number.
-    2} A factorial variable is initialized to 1.    
-    3} A for loop is used to multiply the number to the factorial variable and then the number is decremented each time.    
-    4} This continues till the value of the number is greater than 0.    
-    5} The factorial of the number is printed.
+1} User must enter a number.
+2} A factorial variable is initialized to 1.    
+3} A for loop is used to multiply the number to the factorial variable and then the number is decremented each time.    
+4} This continues till the value of the number is greater than 0.    
+5} The factorial of the number is printed.
 
 Example 1:
 
@@ -482,29 +508,16 @@ Example 4:
 
     Enter a number: 25
     Factorial of integer is 15511210043330985984000000
-
-# for else
-Solution
-
-    -1
-    43
-    4
-    5
-    7
-    8
-    9
-    23
-    53
-    7
-    Loop successfully completed and we are in else block now!!
+```
     
-# Number Sum Calculator
+## Number Sum Calculator
 Number sum calculator
-
-    Enter a number(0 to quit)>> 2
-    Enter a number(0 to quit)>> -5
-    Enter a number(0 to quit)>> 5
-    Enter a number(0 to quit)>> 10
-    Enter a number(0 to quit)>> -4
-    Enter a number(0 to quit)>> 0
-    Total is 8
+```
+Enter a number(0 to quit)>> 2
+Enter a number(0 to quit)>> -5
+Enter a number(0 to quit)>> 5
+Enter a number(0 to quit)>> 10
+Enter a number(0 to quit)>> -4
+Enter a number(0 to quit)>> 0
+Total is 8
+```
